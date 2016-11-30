@@ -1,0 +1,5 @@
+<ul>
+{% for key, value in menu %}
+	<li style="display: inline"><a href="{{ path ( key ) }}">{{ value | capitalize }}</a></li>
+{% endfor %}
+</ul>

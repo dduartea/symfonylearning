@@ -1,0 +1,24 @@
+app:
+    resource: "@AppBundle/Controller/"
+    type:     annotation
+    
+home:
+    path: /
+    defaults: { _controller: AppBundle:Blog:home }
+    
+about:
+    path: /about
+    defaults: { _controller: AppBundle:Blog:about }
+
+contact:
+    path: /contact
+    defaults: { _controller: AppBundle:Blog:contact }         
+
+blog:
+    path: /blog
+    defaults: { _controller: AppBundle:Blog:blog }
+    
+    
+blog2:
+    path: /blog
+    defaults: { _controller: AppBundle:Blog:blog }

@@ -1,0 +1,7 @@
+/app/config/parameters.yml
+/build/
+/phpunit.xml
+/var
+/vendor
+/web
+/bin

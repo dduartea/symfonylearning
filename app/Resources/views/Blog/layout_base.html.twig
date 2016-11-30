@@ -1,0 +1,13 @@
+<html>
+<head>
+<title>Mi primera pagina en symfony</title>
+</head>
+<body>
+{{  render( controller( "AppBundle:Blog:getMenu" ) ) }}
+{% block content %}
+{% endblock %}
+{% block footer %}
+<a>AQUI VA EL FOOTER</a>
+{% endblock %}
+</body>
+</html>
