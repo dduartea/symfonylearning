@@ -11,7 +11,8 @@ parameters:
        home: "Home"
        about: "About us"
        contact: "Contact us"
-       blog: "Blog" 
+       blog: "Blog"
+       plus: "Plus" 
 
 framework:
     #esi:             ~

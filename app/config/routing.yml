@@ -19,6 +19,6 @@ blog:
     defaults: { _controller: AppBundle:Blog:blog }
     
     
-blog2:
+plus:
     path: /blog
     defaults: { _controller: AppBundle:Blog:blog }
